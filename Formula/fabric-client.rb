@@ -10,7 +10,7 @@ class FabricClient < Formula
     sha256 "f28cc5ee2d2c9f1df10168125f38b75639f14503fe723f8730ca4325c2eb4ce1"
 
     def install
-        bin.install "bin/fabric-ca-client"
+        bin.install "fabric-ca-client"
     end
 
     test do
