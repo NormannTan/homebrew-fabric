@@ -14,6 +14,7 @@ class FabricTools < Formula
     bin.install "bin/configtxgen"
     bin.install "bin/configtxlator"
     bin.install "bin/discover"
+    bin.install "bin/fabric-ca-client"
     bin.install "bin/idemixgen"
     bin.install "bin/orderer"
     bin.install "bin/peer"
@@ -24,6 +25,7 @@ class FabricTools < Formula
     system "#{bin}/configtxlator --help"
     system "#{bin}/cryptogen --help"
     system "#{bin}/discover --help"
+        
     system "#{bin}/idemixgen --help"
     system "#{bin}/orderer --help"
     system "#{bin}/peer --help"
